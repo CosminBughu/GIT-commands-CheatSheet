@@ -19,5 +19,6 @@
 Note: IF PUSH FAILS: "git show refs" - if there are refs you should use "git push origin HEAD:master" 
                 -> This states that you want to push the local ref HEAD to the remote ref MASTER 
 
+"git push origin" --delete remoteBranchName TO DELETE A BRANCH
 
-
+"gitk --all" to examine the repo 
