@@ -1,0 +1,16 @@
+-> INIT: "git init" -> This initializes new empty Git repository in our current directory;  U = untracked
+
+-> ADD: "git add" -> This STAGES files that we later want to commit. We can add all files or particular      files;  A = add  
+        To UNSTAGE files "git reset";
+
+-> COMMIT: "git commit -m 'This is a commit' " This takes the files out of the staging;
+
+-> BRANCHES: This helps experiment with code without affecting the MAIN branch, also helps collaborating
+    - "git branch" See the branches;
+    - "git checkout -b bransa" To create a new branch;
+
+
+-> MERGE: "git merge bransa" This glues the branch we have been working with the main branch
+       - "git merge master" This is the way to merge the master branch to your branch so you can get the    latest code if changes where made to it
+
+
